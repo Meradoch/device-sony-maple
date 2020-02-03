@@ -74,6 +74,10 @@ PRODUCT_PACKAGES += \
     InCallUI \
     Stk
 
+# Treble
+PRODUCT_PACKAGES += \
+    vndk_package
+
 # SAR
 PRODUCT_PACKAGES += \
     TransPowerSensors
