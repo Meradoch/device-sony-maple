@@ -28,6 +28,7 @@ endif
 PRODUCT_PLATFORM := yoshino
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=maple
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Partition information
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
